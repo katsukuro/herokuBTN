@@ -12,7 +12,7 @@ mkdir ./libDrive.Server
 mkdir ./libDrive.Server/build
 mkdir ./libDrive.Server/src
 mkdir ./libDrive.Server/templates
-cd ./libdriveweb
+cd ./web
 yarn install
 yarn run build
 mv ./build/* ../libDrive.Server/build
